@@ -54,7 +54,7 @@ class Article extends ActiveRecord
 {
     public function getSnippetSource()
     {
-        return file_get_contents('/path/to/source/files/' . $this->id . '.txt');;
+        return file_get_contents('/path/to/source/files/' . $this->id . '.txt');
     }
 }
 
